@@ -17,9 +17,10 @@ const HighChartChart = (Props: HighChartInterface) => {
 
 export default HighChartChart;
 /*
+*Fungerade för en rendering och initierande av charts. Hinner dock inte med årtalen från slidern, chartsen hamnar i föregående prop.
+
 export default class HighChartChart extends React.Component <HighChartInterface, HighChartInterface>{
 
-  //Fungerade för en rendering och initierande av charts. Hinner dock inte med årtalen från slidern, chartsen hamnar i föregående prop.
   shouldComponentUpdate(nextProps: HighChartInterface, nextState: HighChartInterface) {
     if (nextProps.option.xAxis.categories.length === this.props.option.xAxis.categories.length && nextProps.segment === this.props.segment && nextProps.activated === this.props.activated && nextProps.caseAge === this.props.caseAge) {
       return false

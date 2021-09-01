@@ -3,5 +3,4 @@ export default interface SliderInterface{
   sliderDates: Array<string>;
   sliderValue: number;
   sliderChange?: (event: React.ChangeEvent<HTMLInputElement>) => void;
-  //sliderActivation: (event: React.MouseEvent<HTMLButtonElement>) => void;
 }
