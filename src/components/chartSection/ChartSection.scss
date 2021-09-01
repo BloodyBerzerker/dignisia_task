@@ -1,0 +1,60 @@
+@import '../../styles/variables';
+
+.chartSection{
+  padding: 5%;
+  background-color: $backgroundLightGray;
+}
+
+.chartsControlls{
+  padding: 1%;
+}
+
+.charts{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.selectListTitleBox{
+  padding-bottom: 10px;
+}
+
+.selectListTitle{
+  font-weight: bold;
+}
+
+.selectList{
+  width: 250px;
+  height: 40px;
+  font-size: $largeText;
+  color: $darkGray;
+  border-color: $lightGray;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: 5px;
+}
+
+.selectList:hover {
+  border-color: $shadow;
+}
+/* Focus style */
+.selectList:focus {
+  border-color: $lightGray;
+  box-shadow: none;
+  outline: none;
+}
+select:focus > option:checked {
+    background: $shadow !important;
+}
+
+.topLayer:hover{
+
+}
+
+.secondLayer{
+  padding-left: 10px;
+}
+
+.thirdLayer{
+  padding-left: 20px;
+}

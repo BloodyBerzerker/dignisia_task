@@ -1,0 +1,21 @@
+@import '../../styles/variables';
+
+.headerPrimary{
+  color: $dignisiaPruple;
+  background-color: $dignisiaRed;
+}
+
+.headerSecondary{
+  color: $black;
+  background-color: $dignisiaBlue;
+}
+
+.headerText{
+  display: inline-block;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.headerButton{
+  display: inline-block;
+}

@@ -1,0 +1,53 @@
+@import '../../styles/variables';
+
+.sliderContainer{
+  width: 100%;
+}
+
+.slider{
+  width: 100%;
+  -webkit-appearance:none;
+  background:$shadow;
+  height:5px;
+  border-radius:10px;
+  //overflow:hidden;
+  outline:none;
+}
+/* high value color */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance:none;
+  width:20px;
+  height:20px;
+  background: $red;
+  border-radius:10px;
+  position: relative;
+  //box-shadow: -1000px 0 0 1000px $red;
+}
+
+.sliderHeaderSection{
+  padding-top: 10px;
+}
+
+.sliderTitle{
+  display: inline-block;
+  font-weight: bold;
+}
+
+.currentSliderRange{
+  float: right;
+  display: inline-block;
+  color: $red;
+}
+
+.sliderValueSection{
+  color: $darkGray;
+  padding-top: 10px;
+  font-size: $mediumText;
+}
+.sliderStartValue{
+  display: inline-block;
+}
+.sliderEndValue{
+  float: right;
+  display: inline-block;
+}
