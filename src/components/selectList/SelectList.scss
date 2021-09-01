@@ -1,0 +1,33 @@
+@import '../../styles/variables';
+
+.selectListTitleBox{
+  padding-bottom: 10px;
+}
+
+.selectListTitle{
+  font-weight: bold;
+}
+
+.selectList{
+  width: 250px;
+  height: 40px;
+  font-size: $largeText;
+  color: $darkGray;
+  border-color: $lightGray;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: 5px;
+}
+
+.selectList:hover {
+  border-color: $shadow;
+}
+/* Focus style */
+.selectList:focus {
+  border-color: $lightGray;
+  box-shadow: none;
+  outline: none;
+}
+select:focus > option:checked {
+    background: $shadow !important;
+}
